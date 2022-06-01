@@ -1,0 +1,3 @@
+TresLagoas 40
+SaoPaulo 20
+Goias 30

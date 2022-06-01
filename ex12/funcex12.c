@@ -1,0 +1,62 @@
+#include <stdio.h>
+#include "funcex12.h"
+void searchLetters(FILE *file){
+    char ch;
+    int a=0,b=0,c=0,d=0,e=0,f=0,g=0,h=0,i=0,j=0,k=0,l=0,m=0,n=0,o=0,p=0,q=0,r=0,s=0,t=0,u=0,v=0,w=0,x=0,y=0,z=0;
+    do{
+        ch = fgetc(file);
+        if(ch=='a'||ch=='A') a++;
+        if(ch=='b'||ch=='B') b++;
+        if(ch=='c'||ch=='C') c++;
+        if(ch=='d'||ch=='D') d++;
+        if(ch=='e'||ch=='E') e++;
+        if(ch=='f'||ch=='F') f++;
+        if(ch=='g'||ch=='G') g++;
+        if(ch=='h'||ch=='H') h++;
+        if(ch=='i'||ch=='I') i++;
+        if(ch=='j'||ch=='J') j++;
+        if(ch=='k'||ch=='K') k++;
+        if(ch=='l'||ch=='L') l++;
+        if(ch=='m'||ch=='M') m++;
+        if(ch=='n'||ch=='N') n++;
+        if(ch=='o'||ch=='O') o++;
+        if(ch=='p'||ch=='P') p++;
+        if(ch=='q'||ch=='Q') q++;
+        if(ch=='r'||ch=='R') r++;
+        if(ch=='s'||ch=='S') s++;
+        if(ch=='t'||ch=='T') t++;
+        if(ch=='u'||ch=='U') u++;
+        if(ch=='v'||ch=='V') v++;
+        if(ch=='w'||ch=='W') w++;
+        if(ch=='x'||ch=='X') x++;
+        if(ch=='y'||ch=='Y') y++;
+        if(ch=='z'||ch=='Z') z++;
+    }while(ch != EOF);
+    printf("Alphabetic characters included in the file\n\n");
+    printf("A: %d\n",a);
+    printf("B: %d\n",b);
+    printf("C: %d\n",c);
+    printf("D: %d\n",d);
+    printf("E: %d\n",e);
+    printf("F: %d\n",f);
+    printf("G: %d\n",g);
+    printf("H: %d\n",h);
+    printf("I: %d\n",i);
+    printf("J: %d\n",j);
+    printf("K: %d\n",k);
+    printf("L: %d\n",l);
+    printf("M: %d\n",m);
+    printf("N: %d\n",n);
+    printf("O: %d\n",o);
+    printf("P: %d\n",p);
+    printf("Q: %d\n",q);
+    printf("R: %d\n",r);
+    printf("S: %d\n",s);
+    printf("T: %d\n",t);
+    printf("U: %d\n",u);
+    printf("V: %d\n",v);
+    printf("W: %d\n",w);
+    printf("X: %d\n",x);
+    printf("Y: %d\n",y);
+    printf("Z: %d\n",z);
+}
